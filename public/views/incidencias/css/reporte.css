@@ -1,0 +1,18 @@
+.texto-vertical {
+  /*  writing-mode: vertical-lr;
+    transform: rotate(-180deg);*/
+    text-align:center;   
+}
+
+tbody tr th.alineacion_vert {			 
+	 vertical-align:  middle;
+	 text-align:center;  
+	 
+}
+
+thead tr th.alineacion {			 
+	 vertical-align:  middle;
+	 text-align:center;  	 
+}
+
+

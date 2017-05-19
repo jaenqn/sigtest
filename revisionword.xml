@@ -1,0 +1,102 @@
+<w:color w:val="0000FF"/>
+<w:sz w:val="16"/>
+<w:szCs w:val="16"/></w:rPr>
+<w:t>C</w:t></w:r>
+<w:r w:rsidR="004C0CEC" w:rsidRPr="00410D45">
+    <w:rPr>
+        <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+        <w:b/>
+        <w:color w:val="0000FF"/>
+        <w:sz w:val="16"/>
+        <w:szCs w:val="16"/>
+
+    </w:rPr>
+    <w:t xml:space="preserve">aídas </w:t>
+</w:r></w:p></w:tc>
+<w:tc>
+    <w:tcPr>
+        <w:tcW w:w="2180" w:type="dxa"/>
+        <w:gridSpan w:val="2"/>
+        <w:vAlign w:val="center"/>
+
+    </w:tcPr>
+    <w:p w:rsidR="00410D45" w:rsidRPr="00410D45" w:rsidRDefault="00410D45" w:rsidP="00410D45">
+        <w:pPr>
+            <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="14"/>
+                <w:szCs w:val="14"/>
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00410D45">
+            <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="14"/>
+                <w:szCs w:val="14"/>
+
+            </w:rPr>
+            <w:t>- Charlas de sensibilización</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00410D45" w:rsidRPr="00410D45" w:rsidRDefault="00410D45" w:rsidP="00410D45">
+        <w:pPr>
+            <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="14"/>
+                <w:szCs w:val="14"/>
+
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00410D45">
+            <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="14"/>
+                <w:szCs w:val="14"/>
+
+            </w:rPr>
+            <w:t>- Procedimiento</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00410D45" w:rsidRPr="00410D45" w:rsidRDefault="00410D45" w:rsidP="00410D45">
+        <w:pPr>
+            <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="14"/>
+                <w:szCs w:val="14"/>
+
+            </w:rPr>
+        </w:pPr>
+        <w:r w:rsidRPr="00410D45">
+            <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="14"/>
+                <w:szCs w:val="14"/>
+
+            </w:rPr>
+            <w:t xml:space="preserve">- </w:t>
+        </w:r>
+        <w:r w:rsidR="004C0CEC" w:rsidRPr="00410D45">
+            <w:rPr>
+                <w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/>
+                <w:b/>
+                <w:color w:val="0000FF"/>
+                <w:sz w:val="14"/>
+                <w:szCs w:val="14"/>
+
+            </w:rPr>
+            <w:t>Instructivos de Trabajo</w:t>
+        </w:r>
+    </w:p>
+    <w:p w:rsidR="00410D45" w:rsidRDefault="00410D45" w:rsidP="00410D45"><w:pPr><w:ind w:right="-50"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:color w:val="0000FF"/><w:sz w:val="14"/><w:szCs w:val="14"/></w:rPr></w:pPr><w:r w:rsidRPr="00410D45"><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:color w:val="0000FF"/><w:sz w:val="14"/><w:szCs w:val="14"/></w:rPr><w:t xml:space="preserve">- Cartillas de manejo de </w:t></w:r></w:p><w:p w:rsidR="00410D45" w:rsidRPr="00410D45" w:rsidRDefault="00410D45" w:rsidP="00410D45"><w:pPr><w:ind w:right="-50"/><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:color w:val="0000FF"/><w:sz w:val="14"/><w:szCs w:val="14"/></w:rPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:color w:val="0000FF"/><w:sz w:val="14"/><w:szCs w:val="14"/></w:rPr><w:t xml:space="preserve">   </w:t></w:r><w:r w:rsidRPr="00410D45"><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:color w:val="0000FF"/><w:sz w:val="14"/><w:szCs w:val="14"/></w:rPr><w:t>residuos</w:t></w:r></w:p><w:p w:rsidR="00AB6020" w:rsidRPr="00410D45" w:rsidRDefault="00410D45" w:rsidP="00410D45"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:color w:val="0000FF"/><w:sz w:val="16"/><w:szCs w:val="16"/></w:rPr></w:pPr><w:r w:rsidRPr="00410D45"><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:b/><w:color w:val="0000FF"/><w:sz w:val="14"/><w:szCs w:val="14"/></w:rPr><w:t>- Uso de EPP´s</w:t></w:r><w:bookmarkStart w:id="0" w:name="_GoBack"/><w:bookmarkEnd w:id="0"/></w:p></w:tc></w:tr><w:tr w:rsidR="00AB6020" w:rsidRPr="00FB23C5" w:rsidTr="00FB23C5"><w:trPr><w:trHeight w:val="264"/><w:jc w:val="center"/></w:trPr><w:tc><w:tcPr><w:tcW w:w="9972" w:type="dxa"/><w:gridSpan w:val="11"/><w:vAlign w:val="center"/></w:tcPr><w:p w:rsidR="00AB6020" w:rsidRPr="00FB23C5" w:rsidRDefault="00AB6020" w:rsidP="00AB6020"><w:pPr><w:rPr><w:rFonts w:ascii="Arial" w:hAnsi="Arial" w:cs="Arial"/><w:sz w:val="16"/><w:szCs w:val="16"/></w:rPr></w:pPr><w:r w:rsidRPr="00FB23C5"><w:rPr><w:rFonts

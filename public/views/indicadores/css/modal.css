@@ -1,0 +1,16 @@
+.update,.cancel{
+display:none
+}
+
+.editbox_search{
+margin: 0px;
+display:none;
+}
+
+.texto {
+margin: 0px;
+}
+
+#unidad_medida_nueva{
+ width: 4em;	
+}

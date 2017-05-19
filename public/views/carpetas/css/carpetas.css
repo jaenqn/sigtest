@@ -1,0 +1,29 @@
+.obj-target{
+    /*max-width: 500px;
+    min-width: 499px;*/
+}
+.obj-target > p{
+    overflow: hidden;
+}
+#tblArchivos td.obj-target{
+    cursor:pointer;
+}
+#tblArchivos tr.tr-target{
+    background: rgb(2, 116, 255);
+    color:white;
+}
+#tblArchivos.table>tbody>tr>td, #tblArchivos.table>tbody>tr>th, #tblArchivos.table>tfoot>tr>td, .table>tfoot>tr>th, #tblArchivos.table>thead>tr>td, .table>thead>tr>th {
+    padding: 3px;
+    word-break: break-all;
+
+}
+
+.nav-sm span.fa{
+    display: inherit;
+}
+
+.icon-files img{
+    width: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+}

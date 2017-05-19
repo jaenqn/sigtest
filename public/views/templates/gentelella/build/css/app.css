@@ -1,0 +1,105 @@
+
+.breadcrumb{
+  padding: 8px 15px;
+  margin-bottom: -20px;
+}
+.btn-option-files{
+  padding: 0px 6px;
+  margin-bottom:0px;
+     padding-left: 6px !important;
+     padding-right: 6px !important;
+}
+.form-horizontal .control-label-left{
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: left;
+    padding-top: 8px;
+}
+
+fieldset >*:not(legend) {
+  padding-left:1.3em;
+  padding-right:1.3em;
+}
+
+.display-label-groups .display-label{
+  padding-bottom: 0em;
+
+}
+
+.rotate {
+    -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+
+}
+.rotate >div{
+    /*margin-left: -3em;
+    margin-bottom:3em;*/
+}
+.table>tbody>tr>td.app-text-center, .table>tbody>tr>th.app-text-center{
+
+  text-align: center;
+  vertical-align: middle;
+}
+.table>thead>tr>td.app-text-center-head{
+
+  text-align: center;
+  vertical-align: middle;
+}
+.table>thead>tr>th.app-text-center-head{
+
+  text-align: center;
+  vertical-align: middle;
+}
+
+.radio.radio-apr-editar label {
+    margin-bottom: 5px;
+}
+
+#modAddPeligro .accordion .panel:hover{
+  background: none;
+}
+#modAddAspecto .accordion .panel:hover{
+  background: none;
+}
+ul.ul-no-decoration{
+  list-style: none;
+}
+ul li.li-none{
+  list-style: none;
+}
+
+.resize-none{
+  resize:none;
+}
+.resize-both{
+  resize:both;
+}
+.resize-vertical{
+  resize:vertical;
+}
+.resize-horizontal{
+  resize:horizontal;
+}
+
+.panel_toolbox.app>li>a{
+  color:white;
+}
+.panel_toolbox.app>li>a:hover, .panel_toolbox.app>li>a:focus {
+    background-color: rgb(40, 96, 144);
+}
+
+ul.msg_list li a .time {
+    /*font-size: 11px;
+    font-style: italic;
+    font-weight: bold;*/
+     position: inherit;
+     float:right;
+    /*right: 35px; */
+    margin: 0px;
+}
+textarea.size-vertical{
+  resize: vertical;
+}
