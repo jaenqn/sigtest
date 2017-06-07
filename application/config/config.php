@@ -25,7 +25,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 // $config['base_url'] = 'http://sig.devep-jp.com:8888';
 // $config['base_url'] = 'http://192.168.1.34:8888/aplicativos/mapache/';
-$config['base_url'] = 'http://127.0.0.1:8888/aplicativos/mapache/';
+$config['base_url'] = 'http://localhost:8888/aplicativos/sigtest/';
 // $config['base_url'] = 'http://localhost:8888/aplicativos/mapache/';
 
 /*
