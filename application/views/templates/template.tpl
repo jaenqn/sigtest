@@ -220,7 +220,7 @@
                     <ul class="nav child_menu">
                       <li><a href="{$base_url}residuo/ingreso">Ingreso</a></li>
                       <li><a href="{$base_url}residuo/listar">Listar</a></li>
-                      <li><a href="{$base_url}residuo/reportes_generados">Reporte Residuos Generados</a></li>
+                      <li><a href="{$base_url}residuo/reportes_generados">Resumen Residuos Generados</a></li>
                       <li><a href="{$base_url}residuo/reportes_general_solidos">Reporte General Residuos Sólidos</a></li>
 
                       <li><a href="{$base_url}residuo/declaracion_residuos"> Generar Declaración de Manejo de Residuos Sólidos</a></li>
