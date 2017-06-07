@@ -317,7 +317,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="copyright">
-                        <p>&copy; SIG - PETROPERU</p>
+                        <p>&copy; SIGC - PETROPERU</p>
                     </div>
                 </div>
                 {* <div class="col-lg-6">
