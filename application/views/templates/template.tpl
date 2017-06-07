@@ -181,6 +181,14 @@
                       {* <li><a href="{$base_url}residuo/autorizar">Autorizar</a></li> *}
                     </ul>
                   </li>
+
+                  <!--##SACP-->
+                  <li><a><i class="fa fa-sitemap"></i> SACP <span class="fa fa-chevron-down"></span></a>
+                    <ul class="nav child_menu">
+                      <li><a href="{$base_url}sacp/listar">Listar</a></li>
+                      <li><a href="{$base_url}sacp/generar_sacp">Generar</a></li>
+                    </ul>
+                  </li>
                    <li><a><i class="fa fa-exclamation-triangle"></i> Incidencias <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="{$base_url}gestor/causas">Causas</a></li>
@@ -228,13 +236,6 @@
                         </ul>
                       </li>
                       {* <li><a href="{$base_url}residuo/autorizar">Autorizar</a></li> *}
-                    </ul>
-                  </li>
-                  <!--##SACP-->
-                  <li><a><i class="fa fa-sitemap"></i> SACP <span class="fa fa-chevron-down"></span></a>
-                    <ul class="nav child_menu">
-                      <li><a href="{$base_url}sacp/listar">Listar</a></li>
-                      <li><a href="{$base_url}sacp/generar_sacp">Generar</a></li>
                     </ul>
                   </li>
                   <!--##GESTORES-->
