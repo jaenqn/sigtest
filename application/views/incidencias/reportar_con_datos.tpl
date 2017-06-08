@@ -10,6 +10,11 @@
 <form id="formulario_reporte" action="registrar_reporte" method="post">
 <div class="col-md-12 col-sm-12 col-xs-12">
 	<div class="x_panel"> 
+	
+	  <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"  data-toggle="modal" data-target=".causas-bs-example-modal-lg" role="button" aria-expanded="false" id="causas-modal_boton"><i class="fa fa-wrench"></i></a>
+                      </li>
+	
 	<h2>Tipo de Reporte <span class="required">*</span> : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <small>
        		Incidente:
@@ -479,6 +484,12 @@
      <button type="submit" class="btn btn-primary" id="btn_enviar">Guardar Reporte</button>
 </div>
 </form> <!-- FIn formulario principal -->
+
+   <!-- Para el Modal -->
+    <div class="modal fade causas-bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" id="causas_modal_contenido">
+
+  </div>
+   
    
 {/block}
 {block 'script'}
@@ -501,5 +512,9 @@
 	<script src="{$public_url}views/incidencias/js/upload.js"></script>
 	<script src="{$public_url}views/incidencias/js/subida_ficheros.js"></script>
     <script src="{$public_url}views/incidencias/js/subida_ficheros_respuesta.js"></script>
+	  
+	  
+	  <script src="{$public_url}vendors/jQuery-Smart-Wizard/js/jquery.smartWizard_modificado.js"></script>
+       <script src="{$public_url}views/autoayuda/incidencias/listar_reporte.js"></script>
 	  
 {/block}

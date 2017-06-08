@@ -299,7 +299,7 @@ class Model_Sacp extends CI_Model {
 								  
 		$res =   $this->db->query("SELECT * FROM `tbl_sacp_5causas`
 									WHERE `sacp_id` =  $id_sacp 
-									and  and `sacau_estado_guardada` = 1 
+									 and `sacau_estado_guardada` = 1 
 									order by sacishi_tipo asc");						  					 
 	   
 		if (!$res)
@@ -449,6 +449,50 @@ class Model_Sacp extends CI_Model {
        return $res;
       
     }
+    
+    // para el insertado de evidencias 
+    public function insertar_evidencia($id_incidente,$identificador_reporte){         
+    
+       
+                
+         //obtengo los id
+        $res1 =   $this->db->query("SELECT incevi_id FROM `tbl_incidencias_evidencias` 
+                                    where `incevi_id_reporte` = '$identificador_reporte'");
+        
+        $array = $res1->result_array();
+        
+        
+        
+        if (!$res1)
+        {
+          $error = $this->db->error(); // Has keys 'code' and 'message'
+          echo "$error[message]";
+          return false;
+        }else {
+                
+                foreach ($array as $key => $incevi_id) {                
+                    
+                    $arrayDatos =  array (
+                       'inc_id'     =>$id_incidente,
+                       'incevi_id' => $incevi_id['incevi_id'],        
+                    );  
+                    
+                    
+             
+                    $res2 = $this->db->insert('rel_incidencias_ficheros',$arrayDatos );  
+                }
+                
+                                
+                
+            }
+            
+        return true;     
+     } 
+    
+    
+    
+    
+    
 	
 	
 	public function cerrar_sacp_individual($id_sacp){
@@ -475,6 +519,10 @@ class Model_Sacp extends CI_Model {
        return $res;
       
     }
+    
+    
+    
+    
 			
 
 }	

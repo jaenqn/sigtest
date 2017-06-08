@@ -195,7 +195,6 @@
                       <li><a href="{$base_url}incidencias/listar">Listar</a></li>
                       <li><a href="{$base_url}incidencias/reportar">Reportar</a></li>
                       <li><a href="{$base_url}incidencias/resumen">Resumen</a></li>
-                      <li><a href="{$base_url}incidencias/listar">Listar</a></li>
                     </ul>
                   </li>
                   <!--##PLAN-->

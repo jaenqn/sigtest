@@ -11,7 +11,12 @@
 	     		<h2> Indicadores de Desempeño por Unidad </h2>
 	     		<ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
-                      </li>                      
+                      </li>  
+                      
+                           <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"  data-toggle="modal" data-target=".causas-bs-example-modal-lg" role="button" aria-expanded="false" id="causas-modal_boton"><i class="fa fa-wrench"></i></a>
+                      </li>
+                                          
                     </ul>
 	     		<div class="clearfix"> </div>
 	     	 </div> 
@@ -65,7 +70,11 @@
 		</div>
 	</div> <!-- Contenedor  de Columna 8 -->
 </div><!-- Contenedor  de Fila -->
+<!-- Para el Modal -->
 
+  <div class="modal fade causas-bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" id="causas_modal_contenido">
+
+  </div>
 
     <!--Contenido HTML-->
 {/block}
@@ -80,5 +89,7 @@
 
       <script src="{$public_url}views/indicadores/js/listar_ingresarIndicador.js"></script>
      
+     <script  src="{$public_url}vendors/jQuery-Smart-Wizard/js/jquery.smartWizard_modificado.js"></script>
+    <script src="{$public_url}views/autoayuda/indicadores/ingresar.js"></script>
        
 {/block}

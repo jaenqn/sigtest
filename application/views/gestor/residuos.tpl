@@ -110,7 +110,7 @@
                 <div class="x_title">
                     <h2>Lista de Residuos</h2>
 
-                    <ul class="nav navbar-right panel_toolbox">
+                    <ul class="nav navbar-right panel_toolbox app">
                         <li><a  class="btn btn-primary" id="btnNuevo">Nuevo Residuo</a></li>
                     </ul>
                     <div class="clearfix"></div>
