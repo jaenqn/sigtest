@@ -52,7 +52,7 @@
                 <tr>
                   <th class="alineacion">Indicador test </th>
                   <th class="alineacion">Estado</th>
-                  <th class="alineacion">Acción "en dev-sacp otro mas"</th>
+                  <th class="alineacion">Acción "en dev-sacp otro mas, que pasa"</th>
 
                 </tr>
               </thead>
