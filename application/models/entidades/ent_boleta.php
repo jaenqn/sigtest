@@ -23,6 +23,7 @@
             'cerrado' => 6,
             'sacp' => 7
             );
+
         public static $tipo_estado_dos = array(
             'elaborado' => 1,
             'aprobado' => 2,
@@ -36,6 +37,7 @@
             'seguimiento' => 10,
             'seguimiento_fin' => 11
             );
+
         public static $tipo_involucrados = array(
             'elaborador' => 1,
             'aprobador' => 2,
@@ -44,6 +46,19 @@
             'supervisor_inmediato' => 5
 
             );
+        public static function get_textestado($id_estado){
+            foreach (self::$tipo_estado_dos as $key => $value) {
+                if(+$id_estado == $value){
+                    switch (+$id_estado) {
+                        case 8: return 'Rechaza elaborado';
+                        case 9: return 'Rechaza proceso';
+                        case 11: return 'Seguimiento finalizado';
+                        default: return ucwords($key);
+                    }
+                }
+            }
+            return null;
+        }
         public static function lstEstados($format = false){
             $f = array();
             foreach (self::$tipo_estado_dos as $key => $value) {
@@ -87,6 +102,8 @@
             return array_key_exists($invo, self::$tipo_involucrados) ? self::$tipo_involucrados[$invo] : 0;
         }
         private static $time_expire = 7200;//2horas
+        private static $time_expire_fizcaliza = 7;//dias
+        private static $time_expire_respuesta = 7;//dias
         // public static $time_expire = 120;//2min
         public static function getTiempoRespuesta($mode = false){
             if($mode){

@@ -9,6 +9,10 @@ class Boletasig extends CI_Controller {
     public function viewdoc($correlativo){
         //enrutar los los ficheros de las boletas
     }
+    public function resumen(){
+        $res = $this->boleta->get_resumen();
+        echo_json($res);
+    }
     public function finseguimiento(){
         if($this->input->is_ajax_request()){
 

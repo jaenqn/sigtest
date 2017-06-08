@@ -7,6 +7,16 @@ class Model_Boleta extends CI_Model {
         $this->load->database();
 
     }
+    public function get_resumen(){
+        $this->db->select('bol_estado, count(bol_estado) as cantidad');
+        $this->db->group_by('bol_estado');
+        $res =  $this->db->get('tbl_boletasig')->result_object();
+        foreach ($res as $key => $value) {
+            $value->bol_estado_text = ent_boleta::get_textestado($value->bol_estado);
+        }
+        return $res;
+
+    }
     public function finaliza_seguimiento($p){
 
         $this->db->where('bol_id', $p['id_boleta']);

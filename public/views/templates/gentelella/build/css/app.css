@@ -103,3 +103,8 @@ ul.msg_list li a .time {
 textarea.size-vertical{
   resize: vertical;
 }
+.x_title.x_title_app{
+  padding: 0px;
+  border-bottom: 0px;
+  margin:0px;
+}

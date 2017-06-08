@@ -21,6 +21,7 @@
         echo '</br>';
     }
     function echo_json($array){
+        header('Content-Type: application/json');
         echo json_encode($array);
     }
     function array_to_name_value($array){

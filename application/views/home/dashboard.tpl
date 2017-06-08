@@ -4,6 +4,15 @@
     .row-dashboard {
         font-size: 12px;
     }
+    .chart_graficos{
+        height: 400px;
+    }
+    #char_boletasig{
+
+    }
+    .app_dash>li{
+        float:right;
+    }
 </style>
     {* <link href="{$public_url}views/carpeta_del_controlador/css/carpetas.css" rel="stylesheet"> *}
 {/block}
@@ -53,45 +62,20 @@
             <div class="col-sm-6">
 
                 <div class="x_panel">
-                    <div class="x_title">
-                    <h4>Boletas SIG</h4>
+                    <div class="x_title x_title_app">
+                        <h2 class="x_text hidden">Boletas SIG</h2>
+                        <ul class="nav navbar-right panel_toolbox app_dash">
+                            <li><a class="close-link"><i class="fa fa-close"></i></a>
+                            </li>
+                            <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                            </li>
+
+                        </ul>
+                        <div class="clearfix"></div>
                     </div>
                     <div class="x_content">
+                        <div id="char_boletasig" class="chart_graficos"></div>
 
-                        <table class="table table-bordered table-hover">
-                            <thead>
-                                <tr>
-                                    <th>Nro</th>
-                                    <th>Tipo</th>
-                                    <th>Estado</th>
-                                    <th>Fecha</th>
-                                    <th>Acción</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>BA-No 0001-2016</td>
-                                    <td>Ambiental</td>
-                                    <td>Procesada</td>
-                                    <td>01/11/2016</td>
-                                    <td><a href="#">ver</a></td>
-                                </tr>
-                                <tr>
-                                    <td>BA-No 0001-2016</td>
-                                    <td>Ambiental</td>
-                                    <td>Procesada</td>
-                                    <td>02/11/2016</td>
-                                    <td><a href="#">ver</a></td>
-                                </tr>
-                                <tr>
-                                    <td>BA-No 0001-2016</td>
-                                    <td>Ambiental</td>
-                                    <td>Procesada</td>
-                                    <td>01/11/2016</td>
-                                    <td><a href="#">ver</a></td>
-                                </tr>
-                            </tbody>
-                        </table>
                     </div>
 
                 </div>
@@ -381,5 +365,8 @@
 
 {/block}
 {block 'script'}
-    {* <script src="{$public_url}views/carpeta_controlador/js/carpetas.js"></script> *}
+    <script src="{$public_url}vendors/amcharts/amcharts.js"></script>
+    <script src="{$public_url}vendors/amcharts/plugins/dataloader/dataloader.min.js"></script>
+    <script src="{$public_url}vendors/amcharts/pie.js"></script>
+    <script src="{$public_url}views/dashboard/js/graficos.js"></script>
 {/block}

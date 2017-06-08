@@ -93,7 +93,7 @@ function fnLoad(e){
                     fpro = moment();
                     fexp = moment(r.bol_expire);
                     var dife = fexp.diff(fpro, 'minutes');
-                    return  dife < 0 ? 'Exedido' : dife;
+                    return  dife < 0 ? 'Exedido : ' + dife : dife;
                 }else return '-- --';
 
             } },
@@ -276,7 +276,7 @@ function fnLoad(e){
 
         columnDefs : [
             {
-                targets : [ 7 ],
+                targets : [ 8 ],
                 orderable : false,
                 width: '100px'
 
