@@ -5,13 +5,25 @@
 {block 'contenido'}
 <div class="row">
 
+<<<<<<< HEAD
 	<div class="col-md-10 col-sm-10 col-xs-12 center-margin">
+=======
+	<div class="col-md-9 col-sm-9 col-xs-12">
+>>>>>>> dev-sacp
 		<div class="x_panel">
 			<div class="x_title">
 	     		<h2> Indicadores de Desempeño por Unidad </h2>
 	     		<ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
+<<<<<<< HEAD
+=======
+
+                           <li class="dropdown">
+                        <a href="#" class="dropdown-toggle"  data-toggle="modal" data-target=".causas-bs-example-modal-lg" role="button" aria-expanded="false" id="causas-modal_boton"><i class="fa fa-wrench"></i></a>
+                      </li>
+
+>>>>>>> dev-sacp
                     </ul>
 	     		<div class="clearfix"> </div>
 	     	 </div>
@@ -45,9 +57,10 @@
       <table class="table table-bordered" id="tblListar_xUnidad">
               <thead>
                 <tr>
-                  <th class="alineacion">Indicador </th>
+                  <th class="alineacion">Indicador test </th>
                   <th class="alineacion">Estado</th>
-                  <th class="alineacion">Acción</th>
+                  <th class="alineacion">Acción "en dev-sacp otro mas, que pasa"</th>
+
 
                 </tr>
               </thead>
@@ -65,7 +78,11 @@
 		</div>
 	</div> <!-- Contenedor  de Columna 8 -->
 </div><!-- Contenedor  de Fila -->
+<!-- Para el Modal -->
 
+  <div class="modal fade causas-bs-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true" id="causas_modal_contenido">
+
+  </div>
 
     <!--Contenido HTML-->
 {/block}
@@ -80,5 +97,10 @@
 
       <script src="{$public_url}views/indicadores/js/listar_ingresarIndicador.js"></script>
 
+<<<<<<< HEAD
+=======
+     <script  src="{$public_url}vendors/jQuery-Smart-Wizard/js/jquery.smartWizard_modificado.js"></script>
+    <script src="{$public_url}views/autoayuda/indicadores/ingresar.js"></script>
+>>>>>>> dev-sacp
 
 {/block}

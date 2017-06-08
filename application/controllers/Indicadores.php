@@ -811,7 +811,7 @@ class Indicadores extends CI_Controller {
 		echo json_encode($output);				
     }
 	
-	
+	//http://usaii.atwebpages.com/index.php/reportes/reportes/json_obtener_cantidades_partidas
 	
 	
 	//lista todas las unidades de acuerdo al id del indicador (para el datatable)

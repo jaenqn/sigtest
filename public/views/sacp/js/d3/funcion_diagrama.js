@@ -5,10 +5,13 @@
       d3.json("./data.json", function(data){
         // the most reliable way to get the screen size
         var size = (function(){
-            return {width: this.clientWidth, height: this.clientHeight};
+           return {width: this.clientWidth, height: this.clientHeight};
           }).bind(window.document.documentElement),
         
-        svg = d3.select("body")
+      
+        
+        
+        svg = d3.select("#body")
           .append("svg")
           // firefox needs a real size
           .attr(size())

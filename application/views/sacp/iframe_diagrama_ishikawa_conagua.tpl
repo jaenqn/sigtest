@@ -4,16 +4,16 @@
     <meta charset="utf-8">
    
    <!-- olas -->
-   <link href="{$public_url}views/sacp/js/olas/normalize.css" rel="stylesheet">
-   <link href="{$public_url}views/sacp/css/olas/main.css" rel="stylesheet">
+   <!--<link href="{$public_url}views/sacp/js/olas/normalize.css" rel="stylesheet">
+   <link href="{$public_url}views/sacp/css/olas/main.css" rel="stylesheet">-->
    
     <!--ishikawa -->
    <link href="{$public_url}views/sacp/js/d3/style.css" rel="stylesheet">
   </head>
   <body>
-     <h3 style=" position: absolute; left: 2%; top: 85%; z-index: 2; border: 1px solid black;   background-color: yellow;">
-         Soy un Título afadfadfasdfadfadfadsfad</h3>
-   <div id="my_ishi"  >
+     
+                   
+   <div id="my_ishi" style="width: 80%; height: 50%; background-color: red;" >
   	<div class="waves">
         <div class="wave top-wave"></div>
         <div class="wave middle-wave"></div>

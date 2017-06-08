@@ -7,12 +7,12 @@ class Contingencia extends CI_Controller {
 		$this->load->library('session');
 		AppSession::logueado();
     }
-
+	
 	public function index()
     {
 		redirect('contingencia/subir');
-    }
-
+    }  
+	
 
 	 //
 	 public function subir()
@@ -20,16 +20,16 @@ class Contingencia extends CI_Controller {
         $datos = array(
             'titulo_header' => 'Subir Plan de Contingencia'
             );
-
+		
 		//@$_SESSION['verifica_agregarContingencia'] == '0';
 
 		//para evitar el reload
 		$this->session->set_userdata('verifica_plan', 0);
-
-
+		
+		
 		//maximo tamaño en bytes permitido en el servidor
 		$max_post_length = (int)(str_replace('M', '', ini_get('post_max_size')) * 1024 * 1024);
-
+		
 		$maximo_megas = round($max_post_length / (1024*1024), 2);
 
 		$datos['maximo_megas'] = $maximo_megas;
@@ -40,10 +40,10 @@ class Contingencia extends CI_Controller {
     }
 
 
-	function do_upload()
+	function do_upload()	
 	{
-
-
+					
+		
 		 $this->load->model('Model_Contingencia');
 
 		  $datos = array(
@@ -58,15 +58,15 @@ class Contingencia extends CI_Controller {
 
 		//evitar reload
 		if ($verifica_plan == 0 ) {
-
-
-
+			
+			
+			
 			$post = $this->input->post();
-
-			//$max_post_length = ini_get('post_max_size'); //en megas
-
+			
+			//$max_post_length = ini_get('post_max_size'); //en megas 
+			
 			$max_post_length = (int)(str_replace('M', '', ini_get('post_max_size')) * 1024 * 1024);
-
+			
 			//echo "$max_post_length"; exit;
 			if($post == false) {
 			 redirect('contingencia/subir');
@@ -75,7 +75,7 @@ class Contingencia extends CI_Controller {
 			$fecha_aprobacion = 	$post['fecha_aprobacion'];
 
 			$resultado = $this->Model_Contingencia->insertarContingencia($descripcion, $fecha_aprobacion);
-
+			
 			//si no se registro correctamente en la bd
 			if ($resultado['resultado'] == FALSE ) {
 
@@ -88,9 +88,9 @@ class Contingencia extends CI_Controller {
 			} else {
 
 			// ==== para la subida de archivo============
-
+			
 			//$ruta = DOCSPATH . 'planescontingencia' ;
-
+			
 			$config['upload_path'] = 'temp_contingencia';
 			$config['allowed_types'] = 'pdf|doc|docx';
 			$config['max_size'] = '20000';
@@ -122,15 +122,12 @@ class Contingencia extends CI_Controller {
 				//$this->load->view('upload_success', $data);
 				$this->session->set_userdata('verifica_plan', 1);
 				$verifica_plan = $this->session->userdata('verifica_plan');
-				$datos['verifica'] = $verifica_plan;
+				$datos['verifica'] = $verifica_plan;				
 				$datos['ar_pages'] = array('<a href="subir">Subir</a>');
-                $opcion = array(
-                    'ref_url' => 'temp_contingencia/'.$resultado['num_id'].'.pdf',
-                    'default' => true
-                    );
+				
 				//enviar notificacion automatica
-				enviar_notificacion_sistema_custom(  ent_notificaciones::$areas['comunicacion'], ent_notificaciones::$areas['seguridad'] , 27 ,$opcion);
-
+				enviar_notificacion_sistema(  15, 16 , 27 );
+				
 				$this->smartys->assign($datos);
 				$this->smartys->render('subir_exito');
 			}
@@ -189,26 +186,27 @@ class Contingencia extends CI_Controller {
 			 //eliminamos el registro
 			 $this->load->model('Model_Contingencia');
 			 $res = $this->Model_Contingencia->eliminarContingencia($id); 	//elimina el registro de la BD
+			
 			 return true;
 		}
 
 		return false;
 
     }
-
+	
 	 public function cambiar_estado_contigencia($id = 0)
     {
-
+    	   		
     	$post = $this->input->post();
-    	$id = $post['id'];
-
-		//echo $id;
+    	$id = $post['id'];	 
+		
+		//echo $id;   					    			 
 		 $this->load->model('Model_Contingencia');
 		 $res = $this->Model_Contingencia->cambiar_estado_contingencia($id); 	//cambia estado
-
+		 
 		 return $res;
-
-
+		 
+		
     }
 
 
