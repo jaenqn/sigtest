@@ -5,32 +5,29 @@
 {block 'contenido'}
 <div class="row">
 
-<<<<<<< HEAD
-	<div class="col-md-10 col-sm-10 col-xs-12 center-margin">
-=======
+
 	<div class="col-md-9 col-sm-9 col-xs-12">
->>>>>>> dev-sacp
+
 		<div class="x_panel">
 			<div class="x_title">
 	     		<h2> Indicadores de Desempeño por Unidad </h2>
 	     		<ul class="nav navbar-right panel_toolbox">
                       <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                       </li>
-<<<<<<< HEAD
-=======
+
 
                            <li class="dropdown">
                         <a href="#" class="dropdown-toggle"  data-toggle="modal" data-target=".causas-bs-example-modal-lg" role="button" aria-expanded="false" id="causas-modal_boton"><i class="fa fa-wrench"></i></a>
                       </li>
 
->>>>>>> dev-sacp
+
                     </ul>
 	     		<div class="clearfix"> </div>
 	     	 </div>
 	    <div class="x_content">
 
 	    <div class="form-group">
-            <label class="control-label col-md-2 col-sm-2 col-xs-12">Unidad "teste develop"</label>
+            <label class="control-label col-md-2 col-sm-2 col-xs-12">Unidad</label>
             <div class="col-md-8 col-sm-8 col-xs-12">
               <!-- imprimira automaticamente la unidad del usuario logeado en el sistema -->
               <h4>{$unidad->desDepend}</h4>
@@ -57,9 +54,9 @@
       <table class="table table-bordered" id="tblListar_xUnidad">
               <thead>
                 <tr>
-                  <th class="alineacion">Indicador test </th>
+                  <th class="alineacion">Indicador</th>
                   <th class="alineacion">Estado</th>
-                  <th class="alineacion">Acción "en dev-sacp otro mas, que pasa"</th>
+                  <th class="alineacion">Acción</th>
 
 
                 </tr>
