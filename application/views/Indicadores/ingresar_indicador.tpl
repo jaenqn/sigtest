@@ -50,7 +50,7 @@
       <table class="table table-bordered" id="tblListar_xUnidad">
               <thead>
                 <tr>
-                  <th class="alineacion">Indicador </th>
+                  <th class="alineacion">Indicador test </th>
                   <th class="alineacion">Estado</th>
                   <th class="alineacion">Acción</th>
 
